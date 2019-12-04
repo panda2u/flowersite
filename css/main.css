@@ -1,0 +1,379 @@
+html {
+}
+
+body {
+	background: linear-gradient(to top, #feffff 5%, #ddf1f9 14%, #a0d8ef 90%);
+	margin: 0;
+padding: 0;
+	font-family: 'Poiret One', cursive;
+	font-size: 40px;
+	text-align: center;
+  /*background-color: #a0d8ef;*/
+}
+
+.wrapper {
+margin-top: -53px;
+margin-left: auto;
+margin-right: auto;
+
+padding-top: 8px;
+padding-bottom: 0px;
+min-width: 100%;
+
+color: #ffffff;
+background: url(../img/hat.jpg) center top/cover;
+background-repeat: no-repeat;
+background-size: auto 820px;
+}
+
+#logindiv {
+    position: absolute;
+    width: 15%;
+    right: 0;
+    margin-top: 0.8em;
+    margin-bottom: -40px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 1.4em;
+}
+
+#feedback {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+}
+
+#feedbf {
+    margin-bottom: 10px;
+}
+
+#logindiv input[type="text"],
+#logindiv input[type="email"],
+#logindiv input[type="password"],
+#feedback input[type="text"],
+#feedback input[type="email"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    background: rgba(256, 256, 256, 0.15);
+}
+
+#logindiv input[type="submit"],
+#feedback input[type="submit"] {
+    background: rgba(70, 130, 180, 0.5);
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#feedback input[type="text"],
+#feedback input[type="email"] {
+    box-shadow: 0 0 1px 1px #34495e;
+}
+
+#logindiv input[type="text"]:hover,
+#logindiv input[type="email"]:hover,
+#logindiv input[type="password"]:hover,
+#comment:hover {
+    box-shadow: 0 0 .25px .25px #34495e;
+}
+
+#logindiv input[type="submit"]:hover,
+#feedback input[type="submit"]:hover {
+    background: rgba(70, 130, 180, 0.75);
+    box-shadow: 0 0 1px 1px #34495e;
+}
+
+#feedback {
+    margin-bottom: 40px;
+}
+
+#feedback input[type="text"]:hover,
+#feedback input[type="email"]:hover {
+    background: rgba(256, 256, 256, 0.95);
+    box-shadow: 0 0 1px 1px #34495e;
+}
+
+#p_auth {
+    text-align: right;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    display: block;
+}
+
+#p_auth_out {
+    text-align: right;
+    font-size: 28px;
+    vertical-align: bottom;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#p_feedb {
+    text-align: center;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-style: italic;
+    color: darkblue;
+    display: block;
+}
+
+#comment {
+    display: block;
+    margin: auto;
+    width: 100%;
+    background: rgba(256, 256, 256, 0.55);
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.box {
+	margin: 1% auto 40px auto;
+	padding: 16px 8px 16px 8px;
+	max-width: 1100px;
+	text-transform: uppercase;
+	background-color: rgba(214, 210, 210, 0.45);
+}
+
+.adv {
+	margin: 0px auto 1% auto;
+	padding: 5px 15px 5px 15px;
+	max-width: 600px;
+	font-size: 28px;
+	color: #ffffff;
+	background-color: rgba(214, 210, 210, 0.45);
+}
+
+.spacer {
+	margin: 0px auto 100px auto;
+	padding: 10px 2px 10px 2px;
+	min-width: 150px;
+	max-width: 280px;
+	
+	font-size: 28px;
+	text-transform: uppercase;
+	background-color: rgba(70, 130, 180, 0.75);
+}
+
+.section {
+	margin: 0px auto 50px auto;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #000000;
+}
+
+.frame {
+    display: block;
+	margin: auto auto 100px auto;
+	color: #000000;
+}
+
+#frametop, #imgtop {
+    display: block;
+	margin: auto auto 100px auto;
+	color: #000000;
+}
+
+.lable {
+    display: inline-block;
+    clear: left;
+	margin: 0px auto 20px auto;
+	font-size: 35px;
+}
+
+.lable_left {
+    text-align: justify-all;
+    vertical-align: top;
+    max-width: 486px;
+    margin: 0 .5% 0 auto;
+}
+
+.my-gallery {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px auto 0 auto;
+    padding: 0 20px;
+    max-width: 486px;
+    font-size: 0px;
+}
+
+#gallery_second {
+    margin: auto;
+    max-width: 486px;
+}
+
+#gallery_second figure {
+    float: left;
+    margin: 0px auto 0px auto;
+    padding: 0px 2px 2px 0px;
+}
+
+#gallery_second #fig1 {
+    display: inline-flex;
+    float: left;
+}
+
+#fig2_1 {
+    display: inline-flex;
+    height: 202px;
+    width: 202px;
+}
+
+/*first frame*/
+#fig0 {
+    float: left;
+    margin: 0px auto 0px auto;
+    padding: 0px 2px 2px 0px;
+    max-width: 240px;
+}
+
+/*image in first frame*/
+#fig0 img {
+    display: block;
+    height: 202px;
+    width: 202px;
+}
+
+/*regular frame*/
+#fig1 {
+    float: left;
+    margin: 0px 2px 2px 0px;
+}
+
+#fig2 {
+    float: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+#fig2_1 {
+    float: left;
+    display: block;
+margin: 0px 2px 2px 0px;
+    box-sizing: border-box;
+}
+
+#fig1 img, #fig2 img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+/*last image in gallery*/
+#fig2 img {
+    box-sizing: border-box;
+    float: none;
+}
+
+/*altern last image in gallery*/
+#fig2_1 img {
+    box-sizing: border-box;
+    float: none;
+}
+
+figcaption {
+    font-size: 0px;
+}
+
+.low {
+	padding-top: 100%;
+	position: absolute;
+	z-index: -1;
+	bottom: 1px;
+}
+
+footer {
+	margin: 0% 2% 10px 2%;
+	padding: 9px 6px 10px 6px;
+	min-width: 90%;
+
+	background-color: rgba(214, 210, 210, 0.30);
+	color: #000000;
+	font-size: 28px;
+}
+
+.phone {
+	margin: 0px auto 12px auto;
+	padding: 1px auto 10px auto;
+	min-width: 35%;
+	max-width: 450px;
+	font-family: 'Forum';
+	font-size: 26px;
+	color: rgb(95, 95, 95);
+}
+
+.last {
+	margin: 0px 1% 10px 1%;
+	padding: 5px auto 5px auto;
+	min-width: 90%;
+	min-height: 30px;
+	font-size: 24px;
+}
+
+/*  fieldset {
+    border: none;
+  }
+  .formholder input[type="email"], .formholder input[type="password"], .formholder input[type="text"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+  }
+  .formholder input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .formholder input[type="submit"]:hover {
+    background: #1bc6a4;
+  }*/
+ 
